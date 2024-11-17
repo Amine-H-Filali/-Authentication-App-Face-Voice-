@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentification par Image et Audio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Authentification en deux étapes</h1>
+        <div id="step1" class="step">
+            <h2>Étape 1 : Prendre une photo</h2>
+            <video id="video" width="320" height="240" autoplay></video>
+            <button id="capture">Capturer</button>
+        </div>
+        <div id="step2" class="step">
+            <h2>Étape 2 : Enregistrer un audio</h2>
+            <button id="startRecording">Démarrer l'enregistrement</button>
+            <button id="stopRecording" style="display:none;">Arrêter l'enregistrement</button>
+            <audio id="audioPlayback" controls style="display:none;"></audio>
+        </div>
+        <button id="authenticate" class="action-button">Authentifier</button>
+        <button id="logout" class="action-button">Déconnexion</button>
+        <div id="result"></div>
+        <div id="welcome-message"></div> <!-- Ajout du message de bienvenue -->
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
