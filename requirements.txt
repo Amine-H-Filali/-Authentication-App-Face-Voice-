@@ -194,7 +194,7 @@ jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.26+cuda12
 jeepney==0.7.1
 jellyfish==1.0.4
 jieba==0.42.1
-Jinja2==3.1.4
+Jinja2==3.1.5
 joblib==1.4.2
 jsonpickle==3.2.1
 jsonschema==4.19.2
